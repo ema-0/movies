@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bf804e0-bad6-4d3c-b276-65916b59a420" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_classifier/src.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie_classifier/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_classifier/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +47,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for main_test.MyTestCase.test_sumg">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="movies" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,8 +111,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for main_test.MyTestCase.test_sumg" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Unittests for main_test.MyTestCase.test_sumg" />
         <item itemvalue="Python.movies" />
       </list>
     </recent_temporary>
