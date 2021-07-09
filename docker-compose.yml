@@ -1,0 +1,13 @@
+version: '3.5'
+
+services:
+
+  movies_classifier:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./trained_model:/usr/src/app/trained_model/
+    stdin_open: true
+    tty: true
+    entrypoint: /bin/bash

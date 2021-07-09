@@ -1,7 +1,17 @@
+import argparse
 import json
 import pickle
 from keras.models import load_model
 import numpy as np
+
+
+class CliInterface:
+    @staticmethod
+    def get_parser():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--title", help="Movie title", required=True)
+        parser.add_argument("--description", help="Movie description", required=True)
+        return parser
 
 
 class InputParameters:
