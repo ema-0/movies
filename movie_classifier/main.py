@@ -1,11 +1,9 @@
-#!/home/ema/anaconda3/envs/movies/bin/python
-'''
+"""
     Movie classifier is multiclass classifier for movies genres.
     Based on the plot description, it infers the genres between 10 different labels.
     The logic is based on encoding the movies description using work vectorization and a
     subsequent fully connected neural network.
-'''
-
+"""
 import pickle
 from keras.models import load_model
 import numpy as np
@@ -13,8 +11,6 @@ import argparse
 import os
 import json
 import pathlib
-def sum_first_n(n):
-    return n*(n-1)/2
 
 if __name__ == "__main__":
     os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
