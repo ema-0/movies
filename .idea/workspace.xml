@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bf804e0-bad6-4d3c-b276-65916b59a420" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/movie_classifier/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/main_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_development/1_data_preparation_genres.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/1_data_preparation_genres.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_development/model/saved_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/model/saved_model.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_development/model/variables/variables.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/model/variables/variables.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_development/model/variables/variables.index" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/model/variables/variables.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_development/movies_metadata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/movies_metadata.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_development/vect/genres_subset.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/vect/genres_subset.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_development/vect/tokenizer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/vect/tokenizer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_classifier/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_classifier/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_classifier/model/genres_subset.txt" beforeDir="false" afterPath="$PROJECT_DIR$/trained_model/genres_subset.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_classifier/model/nn/saved_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/trained_model/nn/saved_model.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_classifier/model/nn/variables/variables.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/trained_model/nn/variables/variables.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_classifier/model/nn/variables/variables.index" beforeDir="false" afterPath="$PROJECT_DIR$/trained_model/nn/variables/variables.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_classifier/model/tokenizer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/trained_model/tokenizer.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Python Unit Test" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1v4QNyh9d2DI5XCy0AAMxrBE8qz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for main_test.MyTestCase.test_sumg">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="movies" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/movie_classifier/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="movies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="movies" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for main_test.MyTestCase.test_sumg" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="movies" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;main_test.MyTestCase.test_sumg&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.movies" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python tests.Unittests for main_test.MyTestCase.test_sumg" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for main_test.MyTestCase.test_sumg" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.movies" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bf804e0-bad6-4d3c-b276-65916b59a420" name="Default Changelist" comment="" />
+      <created>1625818845043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625818845043</updated>
+    </task>
+    <servers />
+  </component>
+</project>
