@@ -2,9 +2,9 @@
 
 ## 1. How to run the application
 - Make sure you have **Docker** and **Docker Compose** installed. 
-You can find all the documentation [here](https://www.docker.com/)
-- Clone the repo
-- Move to the repo root directory `movies`
+You can find all the documentation [here](https://www.docker.com/).
+- Clone the repo.
+- Move to the repo root directory `movies`.
 - Build the *Docker Image* and run the *Container*: 
     ```console 
     docker-compose up -d
@@ -37,11 +37,9 @@ The repo files are organized in 5 folders:
 - `movie_classifier`: the running application. It loads the trained model and all
 the other required data from `trained_model`.
 
-- `notebooks`: the prototype of algorithm, from data manipulation to training and testing of the 
+- `notebooks`: the prototype of the algorithm, from data manipulation to training and testing of the 
 neural network.
   
 - `tests`: unit tests for the application.
 - `trained_model`: written by the notebook and read by the application. It contains
 the trained model, the list of accepted genres and the words tokenizer.
-  
-- 
