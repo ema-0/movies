@@ -68,4 +68,4 @@ class Executor:
 
         if print_result:
             print(json.dumps(output, indent=4))
-        return output
+        return estimated_genre
