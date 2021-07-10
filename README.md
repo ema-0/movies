@@ -15,10 +15,10 @@ You can find all the documentation [here](https://www.docker.com/).
     ```
 - Now you can use movie classifier application just typing:
     ```console
-    movie_classier --title <title> --description <description> 
+    movie_classifier --title <title> --description <description> 
     ```
 ### Note
-The command `movie_classifer` is an alias to use the correct Python environment.
+The command `movie_classifier` is an alias to use the correct Python environment.
 Instead, you can use the following commands:
 ```console
 conda activate movies 
@@ -30,10 +30,9 @@ python main.py --title <title> --description <description>
 The repo files are organized in 5 folders:
 - `input_data`: *csv* file used to train and validate the model. 
   For sake of simplicity and because its small size, I included in the repo.
-  Ideally it should be directly downloaded by the user from 
+  Ideally it should be downloaded directly by the user from 
   [here](https://www.kaggle.com/rounakbanik/the-movies-dataset/version/7#movies_metadata.csv). 
-  
-    It is available to everyone but requires to be logged on Kaggle.
+  (it is available to everyone but requires to be logged on Kaggle).
 - `movie_classifier`: the running application. It loads the trained model and all
 the other required data from `trained_model`.
 
@@ -43,3 +42,13 @@ neural network.
 - `tests`: unit tests for the application.
 - `trained_model`: written by the notebook and read by the application. It contains
 the trained model, the list of accepted genres and the words tokenizer.
+
+### Note  
+If you want to run the code on your local machine (notebooks, application or tests),
+you can create and use the conda environment.
+
+For instance, with Linux and MacOs:
+```console
+conda env create -f movies.yml
+conda activate movies 
+```

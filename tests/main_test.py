@@ -5,8 +5,8 @@ import unittest
 from movie_classifier.src import InputParameters, Reader, Executor
 
 
-class MyTestCase(unittest.TestCase):
-    def test1(self):
+class MoviesTests(unittest.TestCase):
+    def test_accepted_value(self):
         os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
         input_parameters = InputParameters(title='''Toy Story''',
                                            description='''
@@ -15,9 +15,20 @@ class MyTestCase(unittest.TestCase):
          But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their 
          differences.''')
         reader = Reader(input_folder_path=str(pathlib.Path(__file__).parent.parent.resolve()) + "/trained_model/")
-        #print(Executor(input_parameters=input_parameters, reader=reader).exe(print_result=False))
         self.assertIn(Executor(input_parameters=input_parameters, reader=reader).exe(print_result=False),
                       reader.read_pkl("genres_subset.txt"))
+
+    def test_correct_value(self):
+        os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
+        input_parameters = InputParameters(title='''Jumanji''',
+                                           description='''
+        When siblings Judy and Peter discover an enchanted board game that opens the door to a magical world, 
+        they unwittingly invite Alan -- an adult who's been trapped inside the game for 26 years -- 
+        into their living room. Alan's only hope for freedom is to finish the game, which proves risky as all three
+         find themselves running from giant rhinoceroses, evil monkeys and other terrifying creatures."''')
+        reader = Reader(input_folder_path=str(pathlib.Path(__file__).parent.parent.resolve()) + "/trained_model/")
+        self.assertEqual(Executor(input_parameters=input_parameters, reader=reader).exe(print_result=False),
+                         'Adventure')
 
 
 if __name__ == '__main__':
