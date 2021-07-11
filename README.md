@@ -31,7 +31,7 @@ The repo files are organized in 5 folders:
 - `input_data`: *csv* file used to train and validate the model. 
   For sake of simplicity and because its small size, I included in the repo.
   Ideally it should be downloaded directly by the user from 
-  [here](https://www.kaggle.com/rounakbanik/the-movies-dataset/version/7#movies_metadata.csv). 
+  [here](https://www.kaggle.com/rounakbanik/the-movies-dataset/version/7#movies_metadata.csv)
   (it is available to everyone but requires to be logged on Kaggle).
 - `movie_classifier`: the running application. It loads the trained model and all
 the other required data from `trained_model`.
